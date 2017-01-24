@@ -1,6 +1,6 @@
 var _ = require('underscore');
 
-var submatrix = ['storage', 'servicebus', 'docdb', 'sqldb', 'rediscache'];
+var submatrix = ['sqldb']; ['storage', 'servicebus', 'docdb', 'sqldb', 'rediscache'];
 
 var testMatrix = [];
 
