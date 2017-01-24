@@ -90,7 +90,7 @@ var lifecycle = function(service) {
       });
 
       it('should poll the state of the provisioning operation', function(done) {
-        this.timeout(3600000);
+        this.timeout(300000);
         var state = 'in progress';
         async.whilst(
           function() {
