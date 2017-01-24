@@ -165,13 +165,13 @@ describe('SqlDb - Provision - Execution', function () {
                     properties: {
                         administratorLogin: 'azureuser',
                         administratorLoginPassword: 'c1oudc0w',
-                        transparentDataEncryption: 'Disabled'
                     }
                 },
                 sqldbName: 'fake-db-name',
                 sqldbParameters: {
                     properties: {
                         collation: 'SQL_Latin1_General_CP1_CI_AS'
+//                        transparentDataEncryption: 'Disabled'
                     }
                 }
             },
