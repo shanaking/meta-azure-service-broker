@@ -50,7 +50,8 @@ describe('SqlDb - bind', function () {
                         maxSizeBytes: '2147483648',
                         createMode: 'Default',
                         edition: 'Basic',
-                        requestedServiceObjectiveName: 'Basic'
+                        requestedServiceObjectiveName: 'Basic',
+                        transparentDataEncryption: 'Disabled'
                     }
                 }
             },
